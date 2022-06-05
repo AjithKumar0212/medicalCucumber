@@ -19,7 +19,8 @@ public class TestRunner extends BaseClass{
 	@AfterClass
 	public static void afterClass() {
 		reportClass.generateJVMReport("target\\reports\\jsonReports\\report.json");
-System.out.println("End");	
+	System.out.println("Brwser Quit");
+    System.out.println("End");	
 		browserQuit();
 	}
 }
