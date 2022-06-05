@@ -1,0 +1,373 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-05T02:38:28.306Z",
+        "line": 3,
+        "name": "To check the Registration function of openmrs page",
+        "description": "",
+        "id": "to-check-the-registration-function-of-openmrs-page;to-check-the-registration-function-of-openmrs-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10488036056,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in  openmrs page login page",
+            "match": {
+              "location": "loginSteps.the_user_should_be_in_openmrs_page_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 428063247,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should enter valid username \"Admin\"and password\"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 56
+                }
+              ],
+              "location": "loginSteps.the_user_should_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2643143752,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should click the login button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7631141424,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should click the registarionPatient button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_the_registarionPatient_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33029946,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should be in Registration page",
+            "match": {
+              "location": "loginSteps.the_user_should_be_in_Registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568708430,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should fill the given,Middle and family name",
+            "match": {
+              "location": "loginSteps.the_user_should_fill_the_given_Middle_and_family_name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Durai",
+                  "Arasan",
+                  "dj"
+                ]
+              },
+              {
+                "cells": [
+                  "Durai",
+                  "sadhana",
+                  "ds"
+                ]
+              },
+              {
+                "cells": [
+                  "Durai",
+                  "priya",
+                  "dp"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144925512,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255548137,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should select the gender \"Male\" in dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 34
+                }
+              ],
+              "location": "loginSteps.the_user_should_select_the_gender_in_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76420163,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477422715,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user should fill the date \"02\",month\"December\" and year\"1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"02\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"1997\"",
+                  "offset": 59
+                }
+              ],
+              "location": "loginSteps.the_user_should_fill_the_date_month_and_year(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116400399,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774249469,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user should fill the address1,address2,city,state,country,postal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                },
+                {
+                  "val": "2",
+                  "offset": 41
+                }
+              ],
+              "location": "loginSteps.the_user_should_fill_the_address_address_city_state_country_postal(Integer,Integer,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "address1",
+                  "address2",
+                  "city",
+                  "state",
+                  "country",
+                  "postal"
+                ]
+              },
+              {
+                "cells": [
+                  "Ariyalur",
+                  "tam",
+                  "Tamabaram",
+                  "Tn",
+                  "india",
+                  "621851"
+                ]
+              },
+              {
+                "cells": [
+                  "Ariyalur",
+                  "tam",
+                  "Tamabaram",
+                  "Tn",
+                  "india",
+                  "621851"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104609187,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168086599,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user should fill the patient phone number \"9942754605\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9942754605\"",
+                  "offset": 46
+                }
+              ],
+              "location": "loginSteps.the_user_should_fill_the_patient_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103899518,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406281773,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user should select the RealtionshipType and enter Person name\"Ajith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ajith\"",
+                  "offset": 65
+                }
+              ],
+              "location": "loginSteps.the_user_should_select_the_RealtionshipType_and_enter_Person_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90297980,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user should click next button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120067467,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user should click the submit button",
+            "match": {
+              "location": "loginSteps.the_user_should_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1752191270,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "then user have patentId",
+            "match": {
+              "location": "loginSteps.then_user_have_patentId()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To check the Registration function of openmrs page",
+    "description": "",
+    "id": "to-check-the-registration-function-of-openmrs-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Register.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

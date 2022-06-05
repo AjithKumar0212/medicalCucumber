@@ -1,0 +1,274 @@
+[
+  {
+    "source": "The user should be in  openmrs page login page",
+    "steps": [
+      {
+        "name": "The user should be in  openmrs page login page",
+        "aggregatedDurations": {
+          "median": 10.346704861,
+          "average": 10.346704861
+        },
+        "durations": [
+          {
+            "duration": 10.346704861,
+            "location": "file:src/test/resources/Features/Register.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should enter valid username {string}and password{string}",
+    "steps": [
+      {
+        "name": "The user should enter valid username \"Admin\"and password\"Admin123\"",
+        "aggregatedDurations": {
+          "median": 0.463874291,
+          "average": 0.463874291
+        },
+        "durations": [
+          {
+            "duration": 0.463874291,
+            "location": "file:src/test/resources/Features/Register.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the login button",
+    "steps": [
+      {
+        "name": "The user should click the login button",
+        "aggregatedDurations": {
+          "median": 3.301531992,
+          "average": 3.301531992
+        },
+        "durations": [
+          {
+            "duration": 3.301531992,
+            "location": "file:src/test/resources/Features/Register.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the registarionPatient button",
+    "steps": [
+      {
+        "name": "The user should click the registarionPatient button",
+        "aggregatedDurations": {
+          "median": 8.296139848,
+          "average": 8.296139848
+        },
+        "durations": [
+          {
+            "duration": 8.296139848,
+            "location": "file:src/test/resources/Features/Register.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should be in Registration page",
+    "steps": [
+      {
+        "name": "The user should be in Registration page",
+        "aggregatedDurations": {
+          "median": 0.012871784,
+          "average": 0.012871784
+        },
+        "durations": [
+          {
+            "duration": 0.012871784,
+            "location": "file:src/test/resources/Features/Register.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should fill the given,Middle and family name",
+    "steps": [
+      {
+        "name": "The user should fill the given,Middle and family name",
+        "aggregatedDurations": {
+          "median": 0.425271437,
+          "average": 0.425271437
+        },
+        "durations": [
+          {
+            "duration": 0.425271437,
+            "location": "file:src/test/resources/Features/Register.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click next button",
+    "steps": [
+      {
+        "name": "The user should click next button",
+        "aggregatedDurations": {
+          "median": 0.106454326,
+          "average": 0.116548507
+        },
+        "durations": [
+          {
+            "duration": 0.116401738,
+            "location": "file:src/test/resources/Features/Register.feature:14"
+          },
+          {
+            "duration": 0.107125163,
+            "location": "file:src/test/resources/Features/Register.feature:16"
+          },
+          {
+            "duration": 0.168060265,
+            "location": "file:src/test/resources/Features/Register.feature:18"
+          },
+          {
+            "duration": 0.105783488,
+            "location": "file:src/test/resources/Features/Register.feature:23"
+          },
+          {
+            "duration": 0.104316839,
+            "location": "file:src/test/resources/Features/Register.feature:25"
+          },
+          {
+            "duration": 0.097603551,
+            "location": "file:src/test/resources/Features/Register.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should select the gender {string} in dropdown",
+    "steps": [
+      {
+        "name": "The user should select the gender \"Male\" in dropdown",
+        "aggregatedDurations": {
+          "median": 0.230382123,
+          "average": 0.230382123
+        },
+        "durations": [
+          {
+            "duration": 0.230382123,
+            "location": "file:src/test/resources/Features/Register.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should fill the date {string},month{string} and year{string}",
+    "steps": [
+      {
+        "name": "The user should fill the date \"02\",month\"December\" and year\"1997\"",
+        "aggregatedDurations": {
+          "median": 0.665277829,
+          "average": 0.665277829
+        },
+        "durations": [
+          {
+            "duration": 0.665277829,
+            "location": "file:src/test/resources/Features/Register.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should fill the address{int},address{int},city,state,country,postal",
+    "steps": [
+      {
+        "name": "The user should fill the address1,address2,city,state,country,postal",
+        "aggregatedDurations": {
+          "median": 0.735366764,
+          "average": 0.735366764
+        },
+        "durations": [
+          {
+            "duration": 0.735366764,
+            "location": "file:src/test/resources/Features/Register.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should fill the patient phone number {string}",
+    "steps": [
+      {
+        "name": "The user should fill the patient phone number \"9942754605\"",
+        "aggregatedDurations": {
+          "median": 0.16665655,
+          "average": 0.166656550
+        },
+        "durations": [
+          {
+            "duration": 0.16665655,
+            "location": "file:src/test/resources/Features/Register.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should select the RealtionshipType and enter Person name{string}",
+    "steps": [
+      {
+        "name": "The user should select the RealtionshipType and enter Person name\"Ajith\"",
+        "aggregatedDurations": {
+          "median": 0.753277643,
+          "average": 0.753277643
+        },
+        "durations": [
+          {
+            "duration": 0.753277643,
+            "location": "file:src/test/resources/Features/Register.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the submit button",
+    "steps": [
+      {
+        "name": "The user should click the submit button",
+        "aggregatedDurations": {
+          "median": 0.117662181,
+          "average": 0.117662181
+        },
+        "durations": [
+          {
+            "duration": 0.117662181,
+            "location": "file:src/test/resources/Features/Register.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "then user have patentId",
+    "steps": [
+      {
+        "name": "then user have patentId",
+        "aggregatedDurations": {
+          "median": 1.990674774,
+          "average": 1.990674774
+        },
+        "durations": [
+          {
+            "duration": 1.990674774,
+            "location": "file:src/test/resources/Features/Register.feature:29"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+@smoke
+Feature: To check the Registration function of openmrs page
+
+  @smoke
+  Scenario: To check the Registration function of openmrs page                   # src/test/resources/Features/Register.feature:3
+    Given The user should be in  openmrs page login page                         # loginSteps.the_user_should_be_in_openmrs_page_login_page()
+    And The user should enter valid username "Admin"and password"Admin123"       # loginSteps.the_user_should_enter_valid_username_and_password(String,String)
+    When The user should click the login button                                  # loginSteps.the_user_should_click_the_login_button()
+    And The user should click the registarionPatient button                      # loginSteps.the_user_should_click_the_registarionPatient_button()
+    And The user should be in Registration page                                  # loginSteps.the_user_should_be_in_Registration_page()
+    And The user should fill the given,Middle and family name                    # loginSteps.the_user_should_fill_the_given_Middle_and_family_name(DataTable)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should select the gender "Male" in dropdown                     # loginSteps.the_user_should_select_the_gender_in_dropdown(String)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should fill the date "02",month"December" and year"1997"        # loginSteps.the_user_should_fill_the_date_month_and_year(String,String,String)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should fill the address1,address2,city,state,country,postal     # loginSteps.the_user_should_fill_the_address_address_city_state_country_postal(Integer,Integer,DataTable)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should fill the patient phone number "9942754605"               # loginSteps.the_user_should_fill_the_patient_phone_number(String)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should select the RealtionshipType and enter Person name"Ajith" # loginSteps.the_user_should_select_the_RealtionshipType_and_enter_Person_name(String)
+    And The user should click next button                                        # loginSteps.the_user_should_click_next_button()
+    And The user should click the submit button                                  # loginSteps.the_user_should_click_the_submit_button()
+    And then user have patentId                                                  # loginSteps.then_user_have_patentId()
